@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 20px;
+}
+
+.box1{
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: linear;
+}
+
+.box1:hover{
+    width: 300px;
+}
+
+.box2{
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+.box2:hover{
+    height: 350px;
+    width: 350px;
+}
+
+.box3{
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: ease;
+}
+
+.box3:hover{
+    width: 300px;
+}
+
+.box4{
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: ease-in;
+}
+
+.box4:hover{
+    width: 300px;
+}
+
+.box5{
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: ease-in-out;
+}
+
+.box5:hover{
+    width: 300px;
+}
+
+.box6{
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: ease-out;
+}
+
+.box6:hover{
+    width: 300px;
+}
+
+.box7{
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: step-start;
+}
+
+.box7:hover{
+    width: 300px;
+}
+
+.main2{
+    display: block;
+    font-size: 32px;
+    position: relative;
+    left: 40%;
+    top: 100%;
+}
+
+.a1{
+    display: block;
+}
